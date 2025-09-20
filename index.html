@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Elección de Héroes</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+
+    <nav class="browser-nav">
+        <a href="#" data-section="inicio" class="active">Inicio</a>
+        <a href="#" data-section="integrantes">Integrantes</a>
+        <a href="#" data-section="proyecto">Cómo se hizo el proyecto</a>
+    </nav>
+
+    <div class="page-content">
+        <section id="inicio" class="app-section active">
+            <h1 class="fade-in-title"><span class="text-rojo">NUESTRO</span> <span class="text-gris">JUEGO</span></h1>
+            <h2 class="fade-in-subtitle">¿A QUIÉN ELIGES?</h2>
+    
+            <div class="characters-container">
+                <div class="character-card" id="spiderman">
+                    <img src="img/spiderman.jpeg" alt="Spiderman">
+                </div>
+                <div class="character-card" id="batman">
+                    <img src="img/batman.jpeg" alt="Batman">
+                </div>
+            </div>
+        </section>
+
+        <section id="spiderman-info" class="app-section">
+            <video class="background-video" autoplay loop muted playsinline>
+                <source src="video/videoplayback.mp4" type="video/mp4">
+            </video>
+            <div class="info-content">
+                <img src="img/spiderman.jpeg" alt="Spiderman">
+                <div class="info-text">
+                    <h3>Spider-Man</h3>
+                    <p>Spider-Man, alter ego de Peter Parker, es un superhéroe huérfano que adquiere habilidades sobrehumanas tras ser mordido por una araña radiactiva. Con su lema "Un gran poder conlleva una gran responsabilidad", Peter se dedica a proteger la ciudad de Nueva York mientras lucha por equilibrar su vida de héroe con sus responsabilidades personales.</p>
+                </div>
+                <button class="back-button">Regresar</button>
+            </div>
+        </section>
+
+        <section id="batman-info" class="app-section">
+            <video class="background-video" autoplay loop muted playsinline>
+                <source src="video/videoplayback.mp4" type="video/mp4">
+            </video>
+            <div class="info-content">
+                <img src="img/batman.jpeg" alt="Batman">
+                <div class="info-text">
+                    <h3>Batman</h3>
+                    <p>Bruce Wayne, el multimillonario filántropo, se convierte en Batman tras presenciar el asesinato de sus padres en su infancia. Sin superpoderes, utiliza su intelecto, destreza física y una vasta fortuna para convertirse en el símbolo de la justicia de Gotham City. Como el "Caballero de la Noche", infunde miedo en los criminales y protege a los inocentes.</p>
+                </div>
+                <button class="back-button">Regresar</button>
+            </div>
+        </section>
+
+        <section id="integrantes" class="app-section">
+            <div class="background-image" style="background-image: url('img/thunderstorm-city.jpg');"></div>
+            <h2>Integrantes del Proyecto</h2>
+            <p>Aquí puedes agregar la información sobre los miembros del equipo, sus roles y contribuciones al proyecto. Puedes usar texto, imágenes o cualquier otro elemento que necesites.</p>
+        </section>
+
+        <section id="proyecto" class="app-section">
+            <div class="background-image" style="background-image: url('img/terrifying-texture-cobweb.jpg');"></div>
+            <h2>Cómo se hizo el Proyecto</h2>
+            <p>En esta sección, puedes detallar el proceso de desarrollo del juego. Habla sobre la conceptualización, el diseño, la programación y los desafíos que superaron. Personaliza este texto a tu gusto.</p>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
